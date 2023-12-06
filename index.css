@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+section{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.container{
+    max-width: 25rem;
+    border: none;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    border-radius: 0.9em;
+    padding-bottom: 1rem;
+    z-index: 1;
+}
+@media (min-width:375px) and (max-width:1440px) {
+    .container{
+        max-width: 90%;
+    }
+}
+
+img{
+    max-width: 100%;
+}
+.content{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.title{
+
+font-weight: 900;
+font-size: 1.6rem;
+}
+.description{
+line-height: 1.5;
+padding: 0.8rem ;
+}
+.split{
+    display: flex;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.01rem;
+    padding: 0.5em 0;
+    background-color: hsl(225, 100%, 94%);
+    border-radius: 1rem;
+    border: none;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.change-link{
+    flex: 1;
+}
+.split-plan{
+    flex: 1;
+}
+.music-icon{
+    flex: 1;
+}
+.plan-padding{
+    margin-bottom: 0.1rem;
+    font-weight: 600;
+}
+
+.payment-btn{
+    display: block;
+border: none;
+padding: 0.8em 3.5em;
+font-size: 1.1rem;
+font-weight: 700;
+color: white;
+margin: auto;
+border-radius: 0.8rem;
+background-color: hsl(245, 75%, 52%);
+}
+.cancel-btn{
+    display: block;
+border: none;
+padding: 1em 3.5em;
+font-size: 1rem;
+font-weight: 700;
+color: hsl(224, 23%, 55%);
+margin: auto;
+border-radius: 0.8rem;
+background-color: transparent;
+opacity: 0.8;
+
+}
